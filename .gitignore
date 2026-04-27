@@ -51,3 +51,11 @@ reports
 screenshots/
 jsonlogs/
 downloads/
+
+# Cypress runtime artifacts
+cypress/videos/
+cypress/screenshots/
+
+# Allure artifacts
+allure-results/
+allure-report/

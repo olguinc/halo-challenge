@@ -1,29 +1,88 @@
-# Halo - Test Automation Exercise
+# 🎯 Halo — Test Automation Exercise
 
-## Installation
-Run the following command to install the dependencies after clone the repo.
+End-to-end test automation framework built with **Cypress 15+** and **Cucumber**, including HTML report generation. Developed as a technical exercise over [practice-automation.com](https://practice-automation.com/).
 
-```sh
-npm i
+---
+
+## 🛠️ Stack
+
+| Tool | Version | Purpose |
+|---|---|---|
+| Cypress | 15+ | E2E test runner |
+| Cucumber | — | BDD / Gherkin support |
+| Cucumber HTML Report | — | Visual test reporting |
+| Node.js | — | Runtime |
+
+---
+
+## 📦 Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/olguinc/halo-challenge.git
+cd halo-challenge
+
+# 2. Install dependencies
+npm install
 ```
 
-## Dev Dependencies
-* Cypress +10
-* Cucumber
-* Cucumber HTML Report
+---
 
-## Running Tests
-Run the following command on your root folder
+## ▶️ Running Tests
 
-```sh
+```bash
+# Run all tests (headless)
+npm run cypress:execution
+
+# Run scenarios by Cucumber tags
+npm run cypress:tags
+
+# Open Cypress Test Runner (interactive mode)
+npm test
+```
+
+---
+
+## 📋 Scenario Selection Criteria
+
+Scenarios were selected based on the following criteria:
+
+- ✅ **Basic E2E** — core flows that a real user would go through
+- ✅ **Theoretical regression** — critical scenarios that should be validated on every release
+- ✅ **Functional coverage** — variety of interaction types (forms, navigation, dynamic elements)
+
+---
+
+## 🗂️ Project Structure
+
+```
+halo-challenge/
+├── cypress/
+│   ├── e2e/              # Feature files (Gherkin)
+│   ├── pages/            # Page Object Model classes
+│   ├── support/          # Step definitions & hooks
+│   └── fixtures/         # Test data
+├── cypress.config.js
+├── cucumber-html-report.js
+└── package.json
+```
+
+---
+
+## 📊 Reports
+
+An HTML report is automatically generated at the end of each test run with a full results summary. To generate it:
+
+```bash
 npm run cypress:execution
 ```
 
-## Test Scenarios
+The report will be available at `reports/cucumber-htmlreport/index.html`.
 
-[Practice Automation Website](https://practice-automation.com/) is the chosen site for these automated tests.
+---
 
-I used the following criteria in order to determine what are the best scenarios to automate:
+## 👩‍💻 Author
 
-* Automate scenarios of basic e2e testing
-* Pick up some scenarios that would be part of a theorical regression testing
+**Carolina Olguin** — Senior QA Engineer · [GitHub](https://github.com/olguinc) · [LinkedIn](https://www.linkedin.com/in/carolina-olg/)
+
+> *"The best tests don't just find bugs — they document the expected behavior of the system."*
