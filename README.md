@@ -13,7 +13,6 @@ End-to-end test automation framework built with **Cypress 15+** and **Cucumber**
 | Cucumber HTML Report | — | Visual test reporting |
 | Node.js | — | Runtime |
 
----
 
 ## 📦 Installation
 
@@ -26,7 +25,6 @@ cd halo-challenge
 npm install
 ```
 
----
 
 ## ▶️ Running Tests
 
@@ -41,7 +39,6 @@ npm run cypress:tags
 npm test
 ```
 
----
 
 ## 📋 Scenario Selection Criteria
 
@@ -51,7 +48,6 @@ Scenarios were selected based on the following criteria:
 - ✅ **Theoretical regression** — critical scenarios that should be validated on every release
 - ✅ **Functional coverage** — variety of interaction types (forms, navigation, dynamic elements)
 
----
 
 ## 🗂️ Project Structure
 
@@ -67,7 +63,6 @@ halo-challenge/
 └── package.json
 ```
 
----
 
 ## 📊 Reports
 
@@ -79,10 +74,9 @@ npm run cypress:execution
 
 The report will be available at `reports/cucumber-htmlreport/index.html`.
 
----
 
 ## 👩🏻‍💻 Author
 
-**Carolina Olguin** — Senior QA Engineer · [GitHub](https://github.com/olguinc) · [LinkedIn](https://www.linkedin.com/in/carolina-olg/)
+**Carolina Olguin** — Senior QA Engineer · [GitHub](https://github.com/olguinc) · [LinkedIn](https://www.linkedin.com/in/carolina-olg/) · [Portfolio](https://olguinc.github.io/)
 
 > *"The best tests don't just find bugs — they document the expected behavior of the system."*
