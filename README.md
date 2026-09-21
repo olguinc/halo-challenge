@@ -81,7 +81,7 @@ The report will be available at `reports/cucumber-htmlreport/index.html`.
 
 ---
 
-## 👩‍💻 Author
+## 👩🏻‍💻 Author
 
 **Carolina Olguin** — Senior QA Engineer · [GitHub](https://github.com/olguinc) · [LinkedIn](https://www.linkedin.com/in/carolina-olg/)
 
